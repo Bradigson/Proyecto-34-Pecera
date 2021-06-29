@@ -1,0 +1,260 @@
+body{
+    overflow-x:hidden;
+}
+.sesion1{
+    background:url(../imgs/785.jpg);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    height:653px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+#img1{
+    position:absolute;
+    width:30px;
+    top:200px;
+    left:-50px;
+    opacity:.5;
+    animation-name:img1;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+}
+
+@keyframes img1{
+    0%{
+        transform:translatex(400px);
+    }
+}
+#img2{
+
+    position:absolute;
+    width:40px;
+    top:100px;
+    right:-50px;
+    animation-name:img2;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:linear;
+ 
+}
+@keyframes img2{
+    0%{
+        transform:translatex(-400px);
+    }
+}
+
+#img3{
+    position:absolute;
+    top:400px;
+    width:60px;
+    left:-100px;
+    animation-name:img1;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease-in;
+}
+
+#img4{
+    position:absolute;
+    top:310px;
+    opacity:.7;
+    width:70px;
+    right:-120px;
+    animation-name:img2;
+    animation-duration:20s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:linear;
+    animation-timing-function:ease-in-out;
+ 
+}
+
+
+#img5{
+    width:40px;
+    position:absolute;
+    left:-90px;
+    animation-name:img5;
+    animation-duration:15s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+}
+@keyframes img5{
+    0%{
+        transform:translatex(400px);
+    }
+}
+
+
+
+#img6{
+    width:60px;
+    position:absolute;
+    bottom:40px;
+    left:-120px;
+    opacity:.8;
+    animation-name:img6;
+    animation-duration:15s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function:linear;
+}
+@keyframes img6{
+    0%{
+        
+        transform:translatex(430px) perspective(400px) rotate(185deg);
+    }
+}
+
+
+
+#img7{
+    position:absolute;
+    width:35px;
+    top:300px;
+    left:-60px;
+    animation-name:img7;
+    animation-duration:25s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:ease-out;
+
+}
+@keyframes img7{
+    0%{
+        transform:translatex(400px);
+    }
+}
+
+
+
+#img8{
+    position:absolute;
+    width:25px;
+    top:170px;
+    left:-90px;
+    opacity:.7;
+    animation-name:img8;
+    animation-duration:17s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+}
+@keyframes img8{
+    0%{
+
+        transform:translatex(460px);
+    }
+}
+
+
+
+
+#img9{
+    position:absolute;
+    width:100px;
+    bottom:-330px;
+    animation-name:img9;
+    animation-duration:7s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function:linear;
+
+}
+@keyframes img9{
+    0%{
+          transform:translatey(-300px);
+    }
+}
+
+
+
+#img10{
+    width:40px;
+    position:absolute;
+    right:30px;
+    top:265px;
+    opacity:.5;
+    animation-name:img10;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-direction:alternate;
+}
+@keyframes img10{
+    0%{
+        transform:translatey(25px);
+    }
+}
+
+
+
+#img11{
+    position:absolute;
+    width:50px;
+    transform:rotate(-18deg);
+    right:-80px;
+    top:455px;
+    z-index:10;
+    animation-name:img11;
+    animation-duration:12s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+}
+@keyframes img11{
+    0%{
+        transform:translatex(-400px);
+    }
+}
+
+
+
+#img12{
+    position:absolute;
+    width:90px;
+    opacity:.9;
+    top:120px;
+    left:-220px;
+    animation-name:img12;
+    animation-duration:7s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:linear;
+
+}
+@keyframes img12{
+    0%{
+          transform:translatex(530px);
+    }
+}
+
+#img13{
+    position:absolute;
+    width:60px;
+    bottom:160px;
+    left:60px;
+    opacity:.4;
+    
+}
+
+
+#img14{
+    position:absolute;
+    top:215px;
+    width:150px;
+    left:-550px;
+    animation-name:img14;
+    animation-duration:30s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    animation-timing-function:linear;
+}
+@keyframes img14{
+    0%{
+        transform:translatex(1100px);
+    }
+}
