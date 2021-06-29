@@ -258,3 +258,553 @@ body{
         transform:translatex(1100px);
     }
 }
+
+
+@media screen and (min-width:360px){
+    body{
+        overflow-y:hidden;
+    }
+    
+    @keyframes img1{
+        0%{
+            transform:translatex(500px);
+        }
+    }
+
+    #img2{
+
+        position:absolute;
+        width:40px;
+        top:100px;
+        right:-120px;
+        animation-name:img2;
+        animation-duration:10s;
+        animation-iteration-count:infinite;
+        animation-direction:reverse;
+        animation-timing-function:linear;
+     
+    }
+    @keyframes img2{
+        0%{
+            transform:translatex(-490px);
+        }
+    }
+
+    #img5{
+        width:40px;
+        position:absolute;
+        left:-90px;
+        top:15px;
+        animation-name:img5;
+        animation-duration:15s;
+        animation-iteration-count:infinite;
+        animation-direction:reverse;
+    }
+    @keyframes img5{
+        0%{
+            transform:translatex(400px);
+        }
+    }
+    @keyframes img6{
+        0%{
+            
+            transform:translatex(530px) perspective(400px) rotate(185deg);
+        }
+    }
+
+    @keyframes img7{
+        0%{
+            transform:translatex(500px);
+        }
+    }
+    @keyframes img11{
+        0%{
+            transform:translatex(-500px);
+        }
+    }
+    @keyframes img12{
+        0%{
+              transform:translatex(630px);
+        }
+    }
+}
+
+
+
+@media screen and (min-width:411px){
+    body{
+        overflow-y:hidden;
+    }
+    
+    @keyframes img1{
+        0%{
+            transform:translatex(600px);
+        }
+    }
+
+    #img2{
+
+        position:absolute;
+        width:40px;
+        top:100px;
+        right:-120px;
+        animation-name:img2;
+        animation-duration:10s;
+        animation-iteration-count:infinite;
+        animation-direction:reverse;
+        animation-timing-function:linear;
+     
+    }
+    @keyframes img2{
+        0%{
+            transform:translatex(-590px);
+        }
+    }
+
+    #img5{
+        width:40px;
+        position:absolute;
+        left:-90px;
+        top:15px;
+        animation-name:img5;
+        animation-duration:15s;
+        animation-iteration-count:infinite;
+        animation-direction:reverse;
+    }
+    @keyframes img5{
+        0%{
+            transform:translatex(500px);
+        }
+    }
+    @keyframes img6{
+        0%{
+            
+            transform:translatex(530px) perspective(400px) rotate(185deg);
+        }
+    }
+
+    @keyframes img7{
+        0%{
+            transform:translatex(500px);
+        }
+    }
+    @keyframes img8{
+        0%{
+    
+            transform:translatex(560px);
+        }
+    }
+    @keyframes img11{
+        0%{
+            transform:translatex(-500px);
+        }
+    }
+    @keyframes img12{
+        0%{
+              transform:translatex(630px);
+        }
+    }
+    #img5{
+        width:40px;
+        position:absolute;
+        left:-90px;
+        top:20px;
+        animation-name:img5;
+        animation-duration:15s;
+        animation-iteration-count:infinite;
+        animation-direction:reverse;
+    }
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:359px){
+
+    @keyframes img1{
+        0%{
+            transform:translatex(500px);
+        }
+    }
+    @keyframes img2{
+        0%{
+            transform:translatex(-500px);
+        }
+    }
+
+    
+#img6{
+    width:60px;
+    position:absolute;
+    bottom:90px;
+    left:-120px;
+    opacity:.8;
+    animation-name:img6;
+    animation-duration:15s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function:linear;
+}
+
+
+
+#img9{
+    position:absolute;
+    width:100px;
+    bottom:-30px;
+    animation-name:img9;
+    animation-duration:7s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function:linear;
+
+}
+@keyframes img9{
+    0%{
+          transform:translatey(-100px);
+    }
+}
+
+    
+}
+
+
+
+@media screen and (min-width:375px){
+    .sesion1{
+        height:667px;
+    }
+    @keyframes img5{
+        0%{
+            transform:translatex(700px);
+        }
+    }
+   
+    
+
+    
+}
+
+@media screen and (min-width:414px){
+    @keyframes img6{
+        0%{
+            
+            transform:translatex(730px) perspective(400px) rotate(185deg);
+        }
+    }
+}
+
+
+
+
+
+@media screen and (min-width:768px){
+    .sesion1{
+        height:1022px;
+    }
+
+    @keyframes img1{
+        0%{
+            transform:translatex(900px);
+        }
+    }
+
+    @keyframes img2{
+        0%{
+            transform:translatex(-900px);
+        }
+    }
+
+    @keyframes img5{
+        0%{
+            transform:translatex(900px);
+        }
+    }
+    
+    @keyframes img6{
+        0%{
+            
+            transform:translatex(930px) perspective(400px) rotate(185deg);
+        }
+    }
+    @keyframes img7{
+        0%{
+            transform:translatex(900px);
+        }
+    }
+
+    @keyframes img8{
+        0%{
+    
+            transform:translatex(960px);
+        }
+    }
+    
+
+    @keyframes img9{
+        0%{
+              transform:translatey(-300px);
+        }
+    }
+
+    #img10{
+        width:70px;
+        position:absolute;
+        right:90px;
+        top:265px;
+        opacity:.5;
+        animation-name:img10;
+        animation-duration:5s;
+        animation-iteration-count:infinite;
+        animation-timing-function:linear;
+        animation-direction:alternate;
+    }
+    @keyframes img10{
+        0%{
+            transform:translatey(25px);
+        }
+    }
+
+    @keyframes img11{
+        0%{
+            transform:translatex(-900px);
+        }
+    }
+    
+    @keyframes img12{
+        0%{
+              transform:translatex(1030px);
+        }
+    }
+    
+    @keyframes img14{
+        0%{
+            transform:translatex(1600px);
+        }
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width:1024px){
+    .sesion1{
+        height:1450px;
+    }
+    @keyframes img1{
+        0%{
+            transform:translatex(1200px);
+        }
+    }
+    @keyframes img2{
+        0%{
+            transform:translatex(-1200px);
+        }
+    }
+    
+    #img5{
+        width:40px;
+        position:absolute;
+        left:-90px;
+        top:120px;
+        animation-name:img5;
+        animation-duration:15s;
+        animation-iteration-count:infinite;
+        animation-direction:reverse;
+    }
+
+    @keyframes img5{
+        0%{
+            transform:translatex(1200px);
+        }
+    }
+    @keyframes img6{
+        0%{
+            
+            transform:translatex(1230px) perspective(400px) rotate(185deg);
+        }
+    }
+    @keyframes img7{
+        0%{
+            transform:translatex(1200px);
+        }
+    }
+
+    
+    @keyframes img8{
+        0%{
+    
+            transform:translatex(1260px);
+        }
+    }
+    
+    @keyframes img11{
+        0%{
+            transform:translatex(-1200px);
+        }
+    }
+
+    @keyframes img12{
+        0%{
+              transform:translatex(1330px);
+        }
+    }
+
+    #img14{
+        position:absolute;
+        top:615px;
+        width:200px;
+        left:-550px;
+        animation-name:img14;
+        animation-duration:30s;
+        animation-iteration-count:infinite;
+        animation-direction:reverse;
+        animation-timing-function:linear;
+    }
+    @keyframes img14{
+        0%{
+            transform:translatex(1600px);
+        }
+    }
+
+    #img9{
+        position:absolute;
+        width:200px;
+        bottom:-330px;
+        animation-name:img9;
+        animation-duration:7s;
+        animation-iteration-count:infinite;
+        animation-direction:alternate-reverse;
+        animation-timing-function:linear;
+    
+    }
+    #img13{
+        position:absolute;
+        width:360px;
+        bottom:160px;
+        left:190px;
+        opacity:.7;
+        
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1026px){
+    .sesion1{
+        height:800px;
+    }
+    @keyframes img1{
+        0%{
+            transform:translatex(1650px);
+        }
+    }
+    @keyframes img2{
+        0%{
+            transform:translatex(-1600px);
+        }
+    }
+    
+    #img5{
+        width:40px;
+        position:absolute;
+        left:-90px;
+        top:120px;
+        animation-name:img5;
+        animation-duration:15s;
+        animation-iteration-count:infinite;
+        animation-direction:reverse;
+    }
+
+    @keyframes img5{
+        0%{
+            transform:translatex(1600px);
+        }
+    }
+    @keyframes img6{
+        0%{
+            
+            transform:translatex(1730px) perspective(400px) rotate(185deg);
+        }
+    }
+    @keyframes img7{
+        0%{
+            transform:translatex(1500px);
+        }
+    }
+
+    
+    @keyframes img8{
+        0%{
+    
+            transform:translatex(1560px);
+        }
+    }
+    
+    @keyframes img11{
+        0%{
+            transform:translatex(-1500px);
+        }
+    }
+
+    @keyframes img12{
+        0%{
+              transform:translatex(1630px);
+        }
+    }
+
+    #img14{
+        position:absolute;
+        top:315px;
+        width:200px;
+        left:-550px;
+        animation-name:img14;
+        animation-duration:30s;
+        animation-iteration-count:infinite;
+        animation-direction:reverse;
+        animation-timing-function:linear;
+    }
+    @keyframes img14{
+        0%{
+            transform:translatex(2000px);
+        }
+    }
+
+    #img9{
+        position:absolute;
+        width:300px;
+        bottom:-330px;
+        animation-name:img9;
+        animation-duration:7s;
+        animation-iteration-count:infinite;
+        animation-direction:alternate-reverse;
+        animation-timing-function:linear;
+    
+    }
+    #img13{
+        position:absolute;
+        width:160px;
+        bottom:100px;
+        left:450px;
+        opacity:.4;
+        
+}
+
+}
